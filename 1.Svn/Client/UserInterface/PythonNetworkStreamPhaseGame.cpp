@@ -1,5 +1,5 @@
 //Find in bool CPythonNetworkStream::RecvDeadPacket()
-		pkChrInstSel->Die();
+		CPythonPlayer::Instance().NotifyDeadMainCharacter();
 		
 ///Add
 #if defined(SKILL_COOLTIME_UPDATE)
